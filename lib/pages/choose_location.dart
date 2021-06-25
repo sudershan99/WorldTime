@@ -48,8 +48,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
                 onTap: () => {
 
                 updateTime(index)
-
-
+                  //updates time
               },
                 title: Text(locations[index].location),
               ),
